@@ -1,0 +1,1 @@
+create table sample (id int(20),name varchar(30));
