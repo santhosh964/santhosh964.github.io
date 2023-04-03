@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<center>
+		<form action="Purchase_Details" method="post">
+			<div>
+				<h1>Purchase Details</h1>
+				<input type="date" placeholder="Date" name="date">
+				<br><br>
+				<input list="company" placeholder="Company Name" name="cmp">
+				<datalist id="company">
+				     <option>BRIDGESTONE</option>
+				     <option>TOPMARKWHEELS</option>
+				     <option>ANJI</option>
+				     <option>SURESHKESHAVAWHEELTECH</option>
+				     <option>GANESHKESHAVAWHEELS</option>
+				     <option>PERMORMANCETYRES</option>
+				     <option>ASHOKAWHEELS</option>
+				     <option>SRIKANTHRWHEELS</option>
+				     <option>RAVINDERREDDY</option>
+				     <option>5THGEAR</option>
+				     <option>YOKOHAMA</option>
+				     <option>MICHELIN</option>
+				     <option>GOODYEAR</option>
+				     <option>GOODYEARKELLY</option>
+				     <option>MAXXIS</option>
+				     <option>JK</option>
+				     <option>CEAT</option>
+				     <option>APOLLO</option>
+				     <option>CONTINENTAL</option>
+				     <option>PIRELLI</option>
+				     <option>DUNLOP</option>
+				     <option>FIRESTONE</option>
+				     <option>HANKOOK</option>
+				     <option>MRF</option>
+				     <OPTION>OTHERS</OPTION>
+				</datalist>
+				<br><br>
+				<input list="tyresize" placeholder="Tyre Size" name="size">
+				<datalist id="tyresize">
+				        <option>135/70R12</option>
+				        <option>145/70R12</option>
+				        <option>145/80R12</option>
+				        <option>155/65R12</option>
+				        <option>165/60R12</option>
+				        <option>145R12</option>
+				        
+				        <option>145/70R13</option>
+				        <option>145/80R13</option>
+				        <option>155/65R13</option>
+				        <option>155/70R13</option>
+				        <option>155/80R13</option>
+				        <option>165/65R13</option>
+				        <option>175/60R13</option>
+				        <option>175/70R13</option>
+				        <option>155R13</option>
+				        
+				        <option>155/65R14</option>
+				        <option>155/70R14</option>
+				        <option>165/65R14</option>
+				        <option>165/70R14</option>
+				        <option>165/80R14</option>
+				        <option>175/65R14</option>
+				        <option>175/70R14</option>
+				        <option>185/60R14</option>
+				        <option>185/65R14</option>
+				        <option>185/70R14</option>
+				        <option>195/60R14</option>
+				        <option>195/65R14</option>
+				        <option>195/70R14</option>
+				        <option>205/60R14</option>
+				        <option>185R14</option>
+				        
+				        <option>175/60R15</option>
+				        <option>175/65R15</option>
+				        <option>185/60R15</option>
+				        <option>185/65R15</option>
+				        <option>195/50R15</option>
+				        <option>195/55R15</option>
+				        <option>195/60R15</option>
+				        <option>195/65R15</option>
+				        <option>205/50R15</option>
+				        <option>205/55R15</option>
+				        <option>205/60R15</option>
+				        <option>205/65R15</option>
+				        <option>205/70R15</option>
+				        <option>215/75R15</option>
+				        <option>225/60R15</option>
+				        <option>235/70R15</option>
+				        <option>235/75R15</option>
+				        <option>265/70R15</option>
+				        
+				        <option>185/55R16</option>
+				        <option>185/60R16</option>
+				        <option>195/55R16</option>
+				        <option>195/60R16</option>
+				        <option>205/50R16</option>
+				        <option>205/55R16</option>
+				        <option>205/60R16</option>
+				        <option>205/65R16</option>
+				        <option>215/55R16</option>
+				        <option>215/60R16</option>
+				        <option>215/65R16</option>
+				        <option>215/70R16</option>
+				        <option>225/50R16</option>
+				        <option>225/55R16</option>
+				        <option>225/60R16</option>
+				        <option>225/70R16</option>
+				        <option>235/60R16</option>
+				        <option>235/70R16</option>
+				        <option>245/70R16</option>
+				        <option>255/65R16</option>
+				        <option>265/70R16</option>
+				        <option>275/70R16</option>
+				        <option>205R16</option>
+				        
+				        <OPTION>205/40R17</OPTION>
+				        <OPTION>205/45R17</OPTION>
+				        <option>205/50R17</option>
+				        <option>205/55R17</option>
+				        <OPTION>215/40R17</OPTION>
+				        <option>215/45R17</option>
+				        <option>215/50R17</option>
+				        <option>215/55R17</option>
+				        <option>215/60R17</option>
+				        <option>225/45R17</option>
+				        <option>225/50R17</option>
+				        <option>225/55R17</option>
+				        <option>225/60R17</option>
+				        <option>225/65R17</option>
+				        <OPTION>235/45R17</OPTION>
+				        <OPTION>235/60R17</OPTION>
+				        <option>235/65R17</option>
+				        <option>235/55R17</option>
+				        <OPTION>245/40R17</OPTION>
+				        <option>245/45R17</option>
+				        <option>255/60R17</option>
+				        <OPTION>255/65R17</OPTION>
+				        <option>265/65R17</option>
+				        <OPTION>275/55R17</OPTION>
+				        <option>275/65R17</option>
+				        
+				        <option>245/40R18</option>
+				        <option>245/45R18</option>
+				        <option>245/50R18</option>
+				        <option>255/40R18</option>
+				        <option>255/55R18</option>
+				        <option>255/60R18</option>
+				        <option>275/40R18</option>
+				        <option>215/55R18</option>
+				        <option>225/45R18</option>
+				        <OPTION>225/55R18</OPTION>
+				        <option>225/50R18</option>
+				        <OPTION>235/40R18</OPTION>
+				        <option>235/50R18</option>
+				        <option>235/55R18</option>
+				        <option>235/60R18</option>
+				        <option>265/60R18</option>
+				        <OPTION>275/40R18</OPTION>
+				        <option>275/60R18</option>
+				        <OPTION>285/35R18</OPTION>
+				        <option>285/60R18</option>
+				        
+				        <option>235/35R19</option>
+				        <OPTION>235/45R19</OPTION>
+				        <option>235/55R19</option>
+				        <OPTION>245/35R19</OPTION>
+				        <option>245/40R19</option>
+				        <option>245/45R19</option>
+				        <OPTION>245/50R19</OPTION>
+				        <option>255/35R19</option>
+				        <option>255/40R19</option>
+				        <option>255/50R19</option>
+				        <option>255/55R19</option>
+				        <OPTION>265/35R19</OPTION>
+				        <option>265/50R19</option>
+				        <option>275/35R19</option>
+				        <option>275/40R19</option>
+				        <option>275/45R19</option>
+				        <option>275/55R19</option>
+				        <OPTION>285/30R19</OPTION>
+				        <OPTION>285/45R19</OPTION>
+				        <option>295/30R19</option>
+				        
+				        <OPTION>245/35R20</OPTION>
+				        <OPTION>245/40R20</OPTION>
+				        <OPTION>255/45R20</OPTION>
+				        <option>255/55R20</option>
+				        <option>255/50R20</option>
+				        <OPTION>265/35R20</OPTION>
+				        <OPTION>265/45R20</OPTION>
+				        <OPTION>265/50R20</OPTION>
+				        <OPTION>275/35R20</OPTION>
+				        <option>275/40R20</option>
+				        <option>275/45R20</option>
+				        <option>275/50R20</option>
+				        <OPTION>285/50R20</OPTION>
+				        <OPTION>295/30R20</OPTION>
+				        <OPTION>295/35R20</OPTION>
+				        <OPTION>295/40R20</OPTION>
+				        <OPTION>295/45R20</OPTION>
+				        <OPTION>305/30R20</OPTION>
+				        <OPTION>315/35R20</OPTION>
+				        
+				        <OPTION>265/40R21</OPTION>
+				        <option>275/40R21</option>
+				        <OPTION>275/45R21</OPTION>
+				        <option>295/35R21</option>
+				        <OPTION>295/40R21</OPTION>
+				        <OPTION>305/30R21</OPTION>
+				        <OPTION>315/30R21</OPTION>
+				        <OPTION>315/40R21</OPTION>
+				</datalist>
+				<br><br>
+				<input list="brand" placeholder="Brand" name="brand">
+				  <datalist id="brand">
+				     <option>BRIDGESTONE</option>
+				     <option>YOKOHAMA</option>
+				     <option>MICHELIN</option>
+				     <option>GOODYEAR</option>
+				     <option>GOODYEARKELLY</option>
+				     <option>MAXXIS</option>
+				     <option>JK</option>
+				     <option>CEAT</option>
+				     <option>APOLLO</option>
+				     <option>CONTINENTAL</option>
+				     <option>PIRELLI</option>
+				     <option>DUNLOP</option>
+				     <option>FIRESTONE</option>
+				     <option>HANKOOK</option>
+				     <option>MRF</option>
+			     </datalist>
+				<br><br>
+				<input list="tyremodel" placeholder="Model" name="model">
+				<datalist id="tyremodel">
+				
+				         <option>MAXXIS</option>
+				         
+				         <option>PIRELLI</option>
+				         
+				         <option>DUNLOP</option>
+				         
+				         <option>FS100</option>
+				         <option>FR500</option>
+				         <option>FIRESTONE</option>
+				         
+				         <option>HANKOOK</option>
+				         
+				         <OPTION>ZLX</OPTION>
+				         <OPTION>ZTX</OPTION>
+				         <OPTION>ZVTV-A1</OPTION>
+				         <OPTION>WANDERER</OPTION>
+				         <OPTION>ZIGMA</OPTION>
+				         <option>MRF</option>
+				         
+				         <option>XM2</option>
+				         <option>XM2+</option>
+				         <option>PRIMACY3</option>
+				         <option>PRIMACY4</option>
+				         <option>PRIMACY3ST</option>
+				         <option>PRIMACY4ST</option>
+				         <option>PRIMACYSUV</option>
+				         <option>PRIMACYSUV+</option>
+				         <option>PILOTSPORT3</option>
+				         <option>PILOTSPORT4</option>
+				         <option>PILOTSPORT4S</option>
+				         <option>PILOTSPORT4SUV</option>
+				         <option>PILOTSUPERSPORT</option>
+				         <option>LTXFORCE</option>
+				         <option>LTXTRIAL</option>
+				         <option>LATITUDESPORT</option>
+				         <option>LATITUDESPORT3</option>
+				         <OPTION>MICHELIN</OPTION>
+				         
+				         <option>B250</option>
+				         <option>B290</option>
+				         <option>S248</option>
+				         <option>S322</option>
+				         <option>STURDO</option>
+				         <option>EP150</option>
+				         <option>T001</option>
+				         <option>T005</option>
+				         <option>ER60</option>
+				         <option>ER300</option>
+				         <option>DHP</option>
+				         <option>D689</option>
+				         <option>D6932</option>
+				         <option>D684</option>
+				         <option>D693</option>
+				         <option>EP850</option>
+				         <option>G3</option>
+				         <option>B390</option>
+				         <option>ALENZA001</option>
+				         <option>BRIDGESTONE</option>
+				         
+				         <option>DUCAROHI-MILER</option>
+				         <option>GPS2</option>
+				         <option>ASSURANCEDURAPLUS2</option>
+				         <option>GT-3SZ1</option>
+				         <option>GOODYEARDP-C1</option>
+				         <option>GOODYEARDP-H1</option>
+				         <option>GOODYEARDP-V1</option>
+				         <option>DP-M1</option>
+				         <option>ASSURANCETRIPLEMAX</option>
+				         <option>DURAPLUS</option>
+				         <option>ASSURANCE</option>
+				         <option>ASSURANCEDURAPLUS</option>
+				         <option>ASSURANCETRIPLEMAX2</option>
+				         <option>ASSUTRIPLEMAX2</option>
+				         <option>ASSURANCETRIPLEMAXHY1</option>
+				         <option>ASSUTRIPLEMAX</option>
+				         <option>ASSURANCEDURAPLUS2XL</option>
+				         <option>WRL</option>
+				         <option>WRANGLER</option>
+				         <option>WRANGLERATSILENTTRAK</option>
+				         <option>WRLTRIPLEMAX</option>
+				         <option>EAGLE</option>
+				         <option>EAGLENCT5</option>
+				         <option>EFFIGRIP</option>
+				         <option>EFFICIENTGRIP</option>
+				         <option>ASSURANCEFP</option>
+				         <option>EXCELLENCE</option>
+				         <option>ASSURANCECOMFORTTRED</option>
+				         <option>EAG</option>
+				         <option>EFG</option>
+				         <option>GOODYEAR</option>
+				         
+				         <option>VFM1</option>
+				         <option>VFM2</option>
+				         <option>VFM3</option>
+				         <option>VFM7</option>
+				         <option>KELLYVFM1</option>
+				         <option>KELLYVFM6</option>
+				         <option>VFM5</option>
+				         <option>KELLY</option>
+				         
+				         <option>A539</option>
+				         <option>E400</option>
+				         <option>AE51</option>
+				         <option>AS01</option>
+				         <option>G015</option>
+				         <option>AE30</option>
+				         <option>G033</option>
+				         <option>G92C</option>
+				         <option>RV02</option>
+				         <option>G055</option>
+				         <option>G057</option>
+				         <option>AR01</option>
+				         <option>A348</option>
+				         <option>A460</option>
+				         <option>AC02</option>
+				         <option>V103</option>
+				         <option>V103B</option>
+				         <option>V105</option>
+				         <option>V105S</option>
+				         <option>V105T</option>
+				         <option>V551</option>
+				         <option>G93B</option>
+				         <option>G94A</option>
+				         <option>YOKOHAMA</option>
+				         
+				         <option>MILAZEX3</option>
+				         <option>SECURADRIVE</option>
+				         <option>STEELPLUS</option>
+				         <option>FORM1STBT</option>
+				         <option>FISBT</option>
+				         <option>CZAR</option>
+				         <option>MILAZE</option>
+				         <option>SPORTDRIVE</option>
+				         <option>SPORTDRIVESUV</option>
+				         <option>CEAT</option>
+				         
+				         <option>UXROYALE</option>
+				         <option>UXTOURING</option>
+				         <option>ULTIMANEO</option>
+				         <option>ULTIMAHILIFE</option>
+				         <option>ULTIMANXT</option>
+				         <option>RANGERH/T</option>
+				         <option>RANGERM/T</option>
+				         <option>RANGERA/T</option>
+				         <option>RANGERX-A/T</option>
+				         <option>JK</option>
+				         
+				         <option>CONTICOMFORTCONTACTCC5</option>
+				         <option>COMFORTCONTACTCC6</option>
+				         <option>ULTRACONTACTUC6</option>
+				         <option>CONTIPREMIUMCONTACTSSR</option>
+				         <option>CONTIMAXCONTACTMC5FR</option>
+				         <option>CONTISPORTCONTACT</option>
+				         <option>CONTIPREMIUMCONTACTPC2</option>
+				         <option>PREMIUMCONTACTPC6</option>
+				         <option>CONTI4*4CONTACT4*4C</option>
+				         <option>CONTICROSSCONTACT</option>
+				         <option>CONTINENTAL</option>
+				</datalist>
+				<br><br>
+				<input type="Submit">
+			</div>
+		</form>
+	</center>
+</body>
+</html>
